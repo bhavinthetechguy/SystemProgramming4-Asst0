@@ -1,0 +1,1251 @@
+                                                               ___TESTCASES__                   
+                                                 
+
+
+(1). 
+ 'Akshar^%Kumar^&7Bhavin&6KUMAR'
+Original String Value - Akshar^%Kumar^&7Bhavin&6KUMAR
+ Number Of Valid Word Found : 4
+Akshar
+Kumar
+Bhavin
+KUMAR
+
+Sorted String :
+Akshar
+Bhavin
+KUMAR
+Kumar
+
+
+(2).
+ 'akshaet!@#4&^patel'
+Original String Value - akshaet!@#4&^patel
+ Number Of Valid Word Found : 2
+My Words Before Sorting (Memory of word assign with Malloc) :
+akshaet
+patel
+
+Sorted String :
+akshaet
+patel
+
+(3).
+'Akshar!@$%patel'
+Original String Value - Akshar!@$%patel
+ Number Of Valid Word Found : 2
+My Words Before Sorting (Memory of word assign with Malloc) :
+Akshar
+patel
+
+Sorted String :
+Akshar
+patel
+
+(4).
+'aa1bb234c@A87!B@C'
+Original String Value - aa1bb234c@A87!B@C
+ Number Of Valid Word Found : 6
+My Words Before Sorting (Memory of word assign with Malloc) :
+aa
+bb
+c
+A
+B
+C
+
+Sorted String :
+A
+B
+C
+aa
+bb
+c
+
+(5).
+ '11111111111111111'
+Original String Value - 11111111111111111
+No Valid sting found for Sorting ! Please try again ..... Good Bye .....
+
+Note:- during without entering any string output is...below
+(6).
+
+Please enter Valid string .... Try Again with ./ak ValidString !! Good Bye .....
+
+(7).
+ 'Apple!Banana@apple!@banana #Icecream&^icecream&'
+Original String Value - Apple!Banana@apple!@banana #Icecream&^icecream&
+ Number Of Valid Word Found : 6
+My Words Before Sorting (Memory of word assign with Malloc) :
+Apple
+Banana
+apple
+banana
+Icecream
+icecream
+
+Sorted String :
+Apple
+Banana
+Icecream
+apple
+banana
+icecream
+
+
+(8).
+ 'A@a%S$s%#D4d%&F@f(&G56g^%H78h 546%$J8j*(K7k$56L^l@#Q45q$%w%^W67E628e79R4r564T63t7Y65y743U765u&94I897i978&O987o789P09p@Z34z45$%X43x675^C76c685V654v789B432b%^$N76n78M876m'
+Original String Value - A@a%S$s%#D4d%&F@f(&G56g^%H78h 546%$J8j*(K7k$56L^l@#Q45q$%w%^W67E628e79R4r564T63t7Y65y743U765u&94I897i978&O987o789P09p@Z34z45$%X43x675^C76c685V654v789B432b%^$N76n78M876m8
+ Number Of Valid Word Found : 52
+My Words Before Sorting (Memory of word assign with Malloc) :
+A
+a
+S
+s
+D
+d
+F
+f
+G
+g
+H
+h
+J
+j
+K
+k
+L
+l
+Q
+q
+w
+W
+E
+e
+R
+r
+T
+t
+Y
+y
+U
+u
+I
+i
+O
+o
+P
+p
+Z
+z
+X
+x
+C
+c
+V
+v
+B
+b
+N
+n
+M
+m
+
+Sorted String :
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+
+(9).
+'Bhvainkumar%$cs.rutger.edu*&with.,cs.class'
+Original String Value - Bhvainkumar%$cs.rutger.edu*&with.,cs.class
+ Number Of Valid Word Found : 7
+My Words Before Sorting (Memory of word assign with Malloc) :
+Bhvainkumar
+cs
+rutger
+edu
+with
+cs
+class
+
+Sorted String :
+Bhvainkumar
+class
+cs
+cs
+edu
+rutger
+with
+
+(10).
+ 'Rugters&%Is%$The*75Best^$University^7In^$#Nj79&6 '
+Original String Value - Rugters&%Is%$The*75Best^$University^7In^$#Nj79&6
+ Number Of Valid Word Found : 7
+My Words Before Sorting (Memory of word assign with Malloc) :
+Rugters
+Is
+The
+Best
+University
+In
+Nj
+
+Sorted String
+Best
+In
+Is
+Nj
+Rugters
+The
+University
+
+
+(11).
+'Rugters&%Is%$The*75Best^$University^7In^$#Nj79^rutgers&*                                                                                                             is76%the*&best%$university! in675nj97 '
+Original String Value - Rugters&%Is%$The*75Best^$University^7In^$#Nj79^rutgers&*                                                                                                             is76%the*&best%$university! in675nj97
+ Number Of Valid Word Found : 14
+My Words Before Sorting (Memory of word assign with Malloc) :
+Rugters
+Is
+The
+Best
+University
+In
+Nj
+rutgers
+is
+the
+best
+university
+in
+nj
+
+Sorted String :
+Best
+In
+Is
+Nj
+Rugters
+The
+University
+best
+in
+is
+nj
+rutgers
+the
+university
+
+
+(12).
+ 'Rugters&%Is%$The*75Best^$University^7In^$#Nj79^rutgers&*is76%the*&best%$university! in675nj97&RUTGERS&^IS6 5!THE&*BEST^%UNIVERSITY544IN67$NJ*'
+Original String Value - Rugters&%Is%$The*75Best^$University^7In^$#Nj79^rutgers&*is76%the*&best%$university! in675nj97&RUTGERS&^IS6 5!THE&*BEST^%UNIVERSITY544IN67$NJ*
+ Number Of Valid Word Found : 21
+My Words Before Sorting (Memory of word assign with Malloc) :
+Rugters
+Is
+The
+Best
+University
+In
+Nj
+rutgers
+is
+the
+best
+university
+in
+nj
+RUTGERS
+IS
+THE
+BEST
+UNIVERSITY
+IN
+NJ
+
+Sorted String :
+BEST
+Best
+IN
+IS
+In
+Is
+NJ
+Nj
+RUTGERS
+Rugters
+THE
+The
+UNIVERSITY
+University
+best
+in
+is
+nj
+rutgers
+the
+university
+
+
+(13).
+  'Blarp123Thing%^^&blap thing'
+Original String Value - Blarp123Thing%^^&blap thing
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) :
+Blarp
+Thing
+blap
+thing
+
+Sorted String :
+Blarp
+Thing
+blap
+thing
+
+
+(14).
+ 'AAnd,aand,aAnd,aanD'
+Original String Value - AAnd,aand,aAnd,aanD
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) :
+AAnd
+aand
+aAnd
+aanD
+
+Sorted String :
+AAnd
+aAnd
+aanD
+aand
+
+
+(15).
+ 'B3435P Ak0%P np)(^^%'
+Original String Value - B3435P Ak0%P np)(^^%
+ Number Of Valid Word Found : 5
+My Words Before Sorting (Memory of word assign with Malloc) :
+B
+P
+Ak
+P
+np
+
+Sorted String :
+Ak
+B
+P
+P
+np
+
+(16).
+ 'Computer&%$ Science*/ Is5 Fun'
+Original String Value - Computer&%$ Science*/ Is5 Fun
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) :
+Computer
+Science
+Is
+Fun
+
+Sorted String :
+Computer
+Fun
+Is
+
+
+(17).
+ '^%^&^&6868**&)()4646464/*?><<<...,.'
+Original String Value - ^%^&^&6868**&)()4646464/*?><<<...,.
+No Valid sting found for Sorting ! Please try again ..... Good Bye .....
+
+(18).
+ 'Hello..HELLO@123hello...///????heLLo'
+Original String Value - Hello..HELLO@123hello...///????heLLo
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) :
+Hello
+HELLO
+hello
+heLLo
+
+Sorted String :
+HELLO
+Hello
+heLLo
+hello
+
+
+(19).
+ 'ABCDEF...?:\//abcdef&*&*(*)@%@'
+Original String Value - ABCDEF...?:\//abcdef&*&*(*)@%@
+ Number Of Valid Word Found : 2
+My Words Before Sorting (Memory of word assign with Malloc) :
+ABCDEF
+abcdef
+
+Sorted String :
+ABCDEF
+abcdef
+
+
+(20).
+ 'A B C D F&& f d c b a'
+Original String Value - A B C D F&& f d c b a
+ Number Of Valid Word Found : 10
+My Words Before Sorting (Memory of word assign with Malloc) :
+A
+B
+C
+D
+F
+f
+d
+c
+b
+a
+
+Sorted String :
+A
+B
+C
+D
+F
+a
+b
+c
+d
+f
+
+(21).
+ '1234567890'
+Original String Value - 1234567890@
+No Valid sting found for Sorting ! Please try again ..... Good Bye .....
+
+Note: no imput string (null)
+(22).
+  ./ak
+Please enter Valid string .... Try Again with ./ak ValidString !! Good Bye .....
+
+(23).
+ 'Trouble understanding Problem 2'
+Original String Value - Trouble understanding Problem 2
+ Number Of Valid Word Found : 3
+My Words Before Sorting (Memory of word assign with Malloc) :
+Trouble
+understanding
+Problem
+
+Sorted String :
+Problem
+Trouble
+understanding
+
+(24).
+ 'Hello4646World^*^world@hello,,,hellO'
+Original String Value - Hello4646World^*^world@hello,,,hellO
+ Number Of Valid Word Found : 5
+My Words Before Sorting (Memory of word assign with Malloc) :
+Hello
+World
+world
+hello
+hellO
+
+Sorted String :
+Hello
+World
+hellO
+hello
+world
+
+(25).
+ 'I #@Am 873A 746Camaro*&car^&lover (*I like^^&8a that ^* so much(*&I want 877to drive764it 883as 887soon 773as 998Possible 887765I8will )                                                     (*&definitly ^^%will ^&8drive **& car %^&**surely7899I want 9887To drive 6665A c                                                                                                             ar678'
+Original String Value - I #@Am 873A 746Camaro*&car^&lover (*I like^^&8a that ^*(                                                                                                             so much(*&I want 877to drive764it 883as 887soon 773as 998Possible 887765I8will )                                                                                                             (*&definitly ^^%will ^&8drive **& car %^&**surely7899I want 9887To drive 6665A c                                                                                                             ar678
+ Number Of Valid Word Found : 34
+My Words Before Sorting (Memory of word assign with Malloc) :
+I
+Am
+A
+Camaro
+car
+lover
+I
+like
+a
+that
+so
+much
+I
+want
+to
+drive
+it
+as
+soon
+as
+Possible
+I
+will
+definitly
+will
+drive
+car
+surely
+I
+want
+To
+drive
+A
+car
+
+Sorted String :
+A
+A
+Am
+Camaro
+I
+I
+I
+I
+I
+Possible
+To
+a
+as
+as
+car
+car
+car
+definitly
+drive
+drive
+drive
+it
+like
+lover
+much
+so
+soon
+surely
+that
+to
+want
+want
+will
+will
+
+(26).
+  'AAA@!aaa$%#BBB$$#CCC$%DDD^%$ddd^^&&SSSS555HHHH777JJJ87KKK9LLL98UUU8YYY6TTT7RRR7EEE6WWW5QQQ9PPP0LLL9MMM8NNN8VVV8XXX9ZZZ9'
+Original String Value - AAA@!aaa$%#BBB$$#CCC$%DDD^%$ddd^^&&SSSS555HHHH777JJJ87KKK9LLL98UUU8YYY6TTT7RRR7EEE6WWW5QQQ9PPP0LLL9MMM8NNN8VVV8XXX9ZZZ9
+ Number Of Valid Word Found : 25
+My Words Before Sorting (Memory of word assign with Malloc) :
+AAA
+aaa
+BBB
+CCC
+DDD
+ddd
+SSSS
+HHHH
+JJJ
+KKK
+LLL
+UUU
+YYY
+TTT
+RRR
+EEE
+WWW
+QQQ
+PPP
+LLL
+MMM
+NNN
+VVV
+XXX
+ZZZ
+
+Sorted String :
+AAA
+BBB
+CCC
+DDD
+EEE
+HHHH
+JJJ
+KKK
+LLL
+LLL
+MMM
+NNN
+PPP
+QQQ
+RRR
+SSSS
+TTT
+UUU
+VVV
+WWW
+XXX
+YYY
+ZZZ
+aaa
+ddd
+
+(27).
+ '!@#$%rutgers^&*))(*University(*&The'
+Original String Value - !@#$%rutgers^&*))(*University(*&The
+ Number Of Valid Word Found : 3
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+rutgers
+University
+The
+
+Sorted String is :
+
+University
+rutgers
+The
+
+(28).
+   '#8585JBdfbbhebf39u395u93fhhehfj'
+Original String Value - #8585JBdfbbhebf39u395u93fhhehfj
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+JBdfbbhebf
+u
+u
+fhhehfj
+
+Sorted String is :
+
+JBdfbbhebf
+u
+u
+fhhehfj
+
+(29).
+  '#$61772982773828290203883737Rutgers is the best &^%$4And This 8373IS good  '
+Original String Value - #$61772982773828290203883737Rutgers is the best &^%$4And This 8373IS good
+ Number Of Valid Word Found : 8
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+Rutgers
+is
+the
+best
+And
+This
+IS
+good
+
+Sorted String is :
+
+And
+IS
+Rutgers
+This
+best
+is
+the
+good
+
+(30).
+  '#$!%&*(#00393883883739This8928737484Is72773894The827389490403Best88493940994World8273774848949Seriesw^@73738838'
+Original String Value - #$!%&*(#00393883883739This8928737484Is72773894The827389490403Best88493940994World8273774848949Seriesw^@73738838
+ Number Of Valid Word Found : 6
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+This
+Is
+The
+Best
+World
+Seriesw
+
+Sorted String is :
+
+Best
+Is
+The
+This
+World
+Seriesw
+
+Note: Null string
+ (31).
+   Please enter Valid string .... Try Again with ./ak ValidString !! Good Bye .....
+
+ (32).
+   'I am a Good &^6Boy888838And &7&I want 777737to be a777 good 87373boy'
+Original String Value - I am a Good &^6Boy888838And &7&I want 777737to be a777 good 87373boy
+ Number Of Valid Word Found : 13
+I
+am
+a
+Good
+Boy
+And
+I
+want
+to
+be
+a
+good
+boy
+
+Sorted String :
+And
+Boy
+Good
+I
+I
+a
+a
+am
+be
+boy
+good
+to
+want
+
+ (33).
+   'THIS 883THE8828WORLD8778392&7BEST267383GAME 8828838EVER88838I998W8WPLAYED9'
+Original String Value - THIS 883THE8828WORLD8778392&7BEST267383GAME 8828838EVER88838I998W8WPLAYED9@
+ Number Of Valid Word Found : 9
+THIS
+THE
+WORLD
+BEST
+GAME
+EVER
+I
+W
+WPLAYED
+
+Sorted String :
+BEST
+EVER
+GAME
+I
+THE
+THIS
+W
+WORLD
+WPLAYED
+
+ (34).
+   'THE CS MAJOR is8738399very ^73883838hard993939and very78939easy88383it depends883HOW WE 777373TAKE0093993 OUR 93993SELF'
+Original String Value - THE CS MAJOR is8738399very ^73883838hard993939and very78939easy88383it depends883HOW WE 777373TAKE0093993 OUR 93993SELF
+ Number Of Valid Word Found : 16
+THE
+CS
+MAJOR
+is
+very
+hard
+and
+very
+easy
+it
+depends
+HOW
+WE
+TAKE
+OUR
+SELF
+
+Sorted String :
+CS
+HOW
+MAJOR
+OUR
+SELF
+TAKE
+THE
+WE
+and
+depends
+easy
+hard
+is
+it
+very
+very
+
+  (35).
+    'abcd&337efghi7336jklm883837nopq773833rstuv9393939wxyz7377373ABCD66373838EFGHI38838383JKLM388388383NOPQ&%%6RSTUV&***WXYZ'
+Original String Value - abcd&337efghi7336jklm883837nopq773833rstuv9393939wxyz7377373ABCD66373838EFGHI38838383JKLM388388383NOPQ&%%6RSTUV&***WXYZ
+ Number Of Valid Word Found : 12
+abcd
+efghi
+jklm
+nopq
+rstuv
+wxyz
+ABCD
+EFGHI
+JKLM
+NOPQ
+RSTUV
+WXYZ
+
+Sorted String :
+ABCD
+EFGHI
+JKLM
+NOPQ
+RSTUV
+WXYZ
+abcd
+efghi
+jklm
+nopq
+rstuv
+wxyz
+
+          
+ (36).
+Original String Value - BHAbi#%#%#%bh(%^*%*bahbfi(%(%#((#(%
+ Number Of Valid Word Found : 3
+BHAbi
+bh
+bahbfi
+
+Sorted String :
+BHAbi
+bahbfi
+bh
+
+(37).
+  Original String Value - %^Bhavin858 patel
+ Number Of Valid Word Found : 2
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+Bhavin
+patel
+
+Sorted String is :
+
+Bhavin
+patel
+
+(38).
+ Original String Value - -------------^^^^^^^^^^^^^^AaBb
+./a.out -------------^^^^^^^^^^^^^^AaBb
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+AaBb
+a
+out
+AaBb
+
+Sorted String is :
+
+AaBb
+a
+out
+AaBb
+
+(39).
+Original String Value - 123/*/*/*/*/*/*//Hey[[][][]]HEY
+ Number Of Valid Word Found : 2
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+Hey
+HEY
+
+Sorted String is :
+
+Hey
+HEY
+
+(40).
+Original String Value - Documnets%%%%%%%%%%%%%%%Labs
+ Number Of Valid Word Found : 2
+Documnets
+Labs
+
+Sorted String :
+Documnets
+Labs
+
+(41).
+Original String Value - Patel<>><><><><><>PATEL??????PATel
+ Number Of Valid Word Found : 3
+Patel
+PATEL
+PATel
+
+Sorted String :
+PATEL
+PATel
+Patel
+
+(42).
+Original String Value - Bhavin#^&**bhAvin&^(&*(bhaVIN
+ Number Of Valid Word Found : 3
+Bhavin
+bhAvin
+bhaVIN
+
+Sorted String :
+Bhavin
+bhAvin
+bhaVIN
+
+(43).
+Original String Value - TestCases.....................................txt
+ Number Of Valid Word Found : 2
+TestCases
+txt
+
+Sorted String :
+TestCases
+txt
+
+(44).
+Original String Value - 1234679Asst0()()wasnot ////Hard
+ Number Of Valid Word Found : 3
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+Asst
+wasnot
+Hard
+
+Sorted String is :
+
+Asst
+wasnot
+Hard
+
+(45).
+Original String Value - Re ^*^*ad44/*Me8383893.pdf@
+ Number Of Valid Word Found : 4
+Re
+ad
+Me
+pdf
+
+Sorted String :
+Me
+Re
+ad
+pdf
+
+(46).
+Original String Value - *(Cant Deal With It#%#%#%#%#%
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+Cant
+Deal
+With
+It
+
+Sorted String is :
+
+Cant
+Deal
+With
+It
+
+(47).
+Original String Value - %(%(^(^(Pointer49494949Soeter.....c
+ Number Of Valid Word Found : 3
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+Pointer
+Soeter
+c
+
+Sorted String is :
+
+Pointer
+Soeter
+c
+
+(48).
+Original String Value - Bhavin#^&**bhAvin&^(&*(bhaVIN
+ Number Of Valid Word Found : 3
+Bhavin
+bhAvin
+bhaVIN
+
+Sorted String :
+Bhavin
+bhAvin
+bhaVIN
+
+(49).
+
+Original String Value - -------------^^^^^^^^^^^^^^AaBb
+./a.out -------------^^^^^^^^^^^^^^AaBb
+ Number Of Valid Word Found : 4
+My Words Before Sorting (Memory of word assign with Malloc) is :
+
+AaBb
+a
+out
+AaBb
+
+Sorted String is :
+
+AaBb
+a
+out
+AaBb
+
+(50).
+Original String Value - Intel(R) - CPU 1680 I5
+ Number Of Valid Word Found : 4
+Intel
+R
+CPU
+I
+
+Sorted String :
+CPU
+I
+Intel
+R
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
